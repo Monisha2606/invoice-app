@@ -40,6 +40,28 @@ This is a Laravel-based Invoice Generator application that:
 git clone https://github.com/monisha2606/invoice-app.git
 cd invoice-app
 
+### 2. 🔧 Install dependencies
+```bash
+composer install
+
+### 3. 🔐 Generate App Key
+```bash
+php artisan key:generate
+
+### 4. ✉️ Email Configuration
+
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=****
+MAIL_USERNAME=your_mailtrap_username
+MAIL_PASSWORD=your_mailtrap_password
+MAIL_FROM_ADDRESS=your@email.com
+MAIL_FROM_NAME="Invoice App"
+
+### 5. 🌐 Run the App
+```bash
+php artisan serve
+
 
 ## 👩‍💻 Author
 
