@@ -16,8 +16,7 @@ This is a Laravel-based Invoice Generator application that:
 - Listener: `SendInvoiceEmail`
 - Mail: `InvoiceDetails`
 - Queue-based email sending
-- Mailtrap/Gmail SMTP configuration
-- Postman/API testing support
+- Mailtrap SMTP configuration
 
 ---
 
